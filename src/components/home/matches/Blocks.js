@@ -26,10 +26,10 @@ export default class HomeMatches extends Component {
         matches ? matches.map((match) =>(
             <Slide bottom key={match.id}>
                 <div className="item">
-                <div className="wrapper">
-                    <MatchesBlock match={match} />
+                    <div className="wrapper">
+                        <MatchesBlock match={match} />
+                    </div>
                 </div>
-            </div>
             </Slide>
         )):null
     )

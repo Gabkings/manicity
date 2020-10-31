@@ -11,7 +11,8 @@ export function Tag(props) {
                 fontSize: props.size,
                 padding:"5px 10px",
                 fontFamily:"Righteous",
-                display:"inline-block"
+                display:"inline-block",
+                ...props.add
             }}
     >{props.children}</div>
     )
