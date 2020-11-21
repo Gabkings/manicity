@@ -26,6 +26,9 @@ export default class Header extends Component {
                     <Link to="/the_matches">
                         <Button color="inherit">Matches</Button>
                     </Link>
+                    <Link to="/sign-in">
+                        <Button color="inherit">SignIn</Button>
+                    </Link>
                 </ToolBar>
             </AppBar>
         )
