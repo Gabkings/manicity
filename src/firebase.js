@@ -23,11 +23,14 @@ const firebaseConfig = {
 
 
   const firebaseTeams = firebaseDB.ref('teams')
+  const firebasePlayers = firebaseDB.ref('players')
 
   export {
       firebase,
       matches,
       firebasePromotions,
       firebaseTeams,
-      firebaseDB
+      firebaseDB,
+      firebasePlayers
+      
   }
